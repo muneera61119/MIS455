@@ -1,0 +1,104 @@
+/* navbar css start */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@100;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+a, a:hover{
+    text-decoration: none;
+}
+
+nav{
+    background: #932500;
+    padding: 5px 20px;
+    display: flex;
+    align-items:center;
+}
+
+nav a {
+    color: #fff;
+}
+
+nav a:hover{
+    color: #f0b400;
+}
+
+
+.logo{
+    flex: 1;
+}
+.logo a:hover{
+    color: #fff;
+}
+
+
+.logo img{
+width: 120px;
+margin-right: 10px;
+}
+
+.menu{
+    display:flex;
+    align-items: center;
+    list-style: none;
+}
+
+.menu li {
+    padding: 15px 10px;
+    font-size: 16px;
+}
+
+.toggle{
+    font-size: 30px;
+    display: none;
+}
+
+@media screen and (max-width:600px) {
+
+    nav{
+        display:block;
+        position: relative;
+        padding: 15px 20px;
+    }
+
+    .menu{
+        margin-top: 15px;
+        display: none;
+    }
+    
+    
+}
+
+/* nav bar css end */
+
+/* card start */
+h1{
+    text-align: center;
+    color: #970023;
+ }
+.card {
+    border: 2px solid rgb(0, 0, 0)  !important; 
+}
+
+.card:hover {
+    border: 2px solid rgb(217, 141, 0) !important; 
+    box-shadow: 0 0 30px rgb(209, 209, 209);
+}
+
+
+/* card end */
+
+/* footer start */
+
+
+
+
+
